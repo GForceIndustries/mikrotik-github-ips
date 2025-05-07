@@ -23,6 +23,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r github_actions_prereqs.txt
+          
+      - name: Delete existing IP list files
+        run: |
+          git rm github-*-ipv4.rsc
+          git rm github-*-ipv6.rsc
+          git commit -m "Removed existing IP list files"
 
       - name: Execute github_actions_github_ips.py Script
         run: python github_actions_github_ips.py
