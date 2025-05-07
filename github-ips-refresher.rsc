@@ -1,4 +1,4 @@
-# Generated on Wed May  7 20:01:39 2025 UTC
+# Generated on Wed May  7 20:15:35 2025 UTC
 file remove [find name~"^github.*ipv..rsc"]
 /system script
 remove [find name="github-ips-refresher"]
@@ -49,4 +49,4 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
     \n/import file-name=github-codespaces-ips-ipv4.rsc;\r\
     \n/import file-name=github-dependabot-ips-ipv4.rsc;\r\
     \n/import file-name=github-copilot-ips-ipv4.rsc;\r\
-    \n/import file-name=github-copilot-ips-ipv6.rsc;\r\"
+    \n/import file-name=github-copilot-ips-ipv6.rsc;"
