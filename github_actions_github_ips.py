@@ -25,7 +25,7 @@ def generateRefresherRsc(lists):
     writer.write('\n/system script')
     writer.write('\nadd dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ftp,read,write,test source=":log info \\"Download GitHub IP lists\\";\\r\\')
     for list in lists:
-        writer.write('    \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/' + list + '.rsc\" mode=https dst-path=' + list + '.rsc;\\r\\')
+        writer.write('    \n\\n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/' + list + '.rsc\" mode=https dst-path=' + list + '.rsc;\\r\\')
     writer.write('    \n\\n\\r\\')
 
     writer.write('\"')
