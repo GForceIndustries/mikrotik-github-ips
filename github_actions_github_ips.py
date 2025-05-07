@@ -42,7 +42,9 @@ def generateRefresherRsc(lists):
 
     writer.write('\n    \\n:log info \\"Import newest GitHub IPs\\";\\r\\')
     for list in lists:
-        writer.write('\n    \\n/import file-name=' + list + '.rsc;\\r\\')
+        writer.write('\n    \\n/import file-name=' + list + '.rsc;')
+        if lists.index(list) != len(lists)-1:
+            writer.write('\\r\\')
 
 
     writer.write('\"')
