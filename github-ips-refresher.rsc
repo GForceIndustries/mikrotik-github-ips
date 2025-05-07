@@ -1,6 +1,6 @@
-# Generated on Wed May  7 19:06:27 2025 UTC
+# Generated on Wed May  7 19:20:17 2025 UTC
 /system script
-add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ftp,read,write,test source=":log info "Download GitHub IP lists";\r\    
+add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ftp,read,write,test source=":log info \"Download GitHub IP lists\";\r\    
 /tool fetch url="https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-hooks-ips-ipv4.rsc" mode=https dst-path=github-hooks-ips-ipv4.rsc;\r\    
 /tool fetch url="https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-hooks-ips-ipv6.rsc" mode=https dst-path=github-hooks-ips-ipv6.rsc;\r\    
 /tool fetch url="https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-web-ips-ipv4.rsc" mode=https dst-path=github-web-ips-ipv4.rsc;\r\    
@@ -22,4 +22,4 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
 /tool fetch url="https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-dependabot-ips-ipv4.rsc" mode=https dst-path=github-dependabot-ips-ipv4.rsc;\r\    
 /tool fetch url="https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-copilot-ips-ipv4.rsc" mode=https dst-path=github-copilot-ips-ipv4.rsc;\r\    
 /tool fetch url="https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-copilot-ips-ipv6.rsc" mode=https dst-path=github-copilot-ips-ipv6.rsc;\r\    
-\n\r\
+\n\r\"
