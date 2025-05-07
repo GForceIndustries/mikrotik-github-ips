@@ -23,5 +23,4 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-codespaces-ips-ipv4.rsc\" mode=https dst-path=github-codespaces-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-dependabot-ips-ipv4.rsc\" mode=https dst-path=github-dependabot-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-copilot-ips-ipv4.rsc\" mode=https dst-path=github-copilot-ips-ipv4.rsc;\r\
-    \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-copilot-ips-ipv6.rsc\" mode=https dst-path=github-copilot-ips-ipv6.rsc;\r\
-    \n\r\"
+    \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-copilot-ips-ipv6.rsc\" mode=https dst-path=github-copilot-ips-ipv6.rsc;"
