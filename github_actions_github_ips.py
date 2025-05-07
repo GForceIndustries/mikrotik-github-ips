@@ -29,14 +29,21 @@ def generateRefresherRsc(lists):
     writer.write('\n/system script')
 
     #/system/script> remove [find name="github-ips-refresher"]
-
     writer.write('\nremove [find name="github-ips-refresher"]')
-
 
     writer.write('\nadd dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ftp,read,write,test source=":log info \\"Download GitHub IP lists\\";\\r\\')
     for list in lists:
         writer.write('\n    \\n/tool fetch url=\\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/' + list + '.rsc\\" mode=https dst-path=' + list + '.rsc;\\r\\')
     writer.write('\n    \\n\\r\\')
+    
+    writer.write('\n    \\n:log info \\"Remove current GitHub IPs\\";\\r\\')
+    writer.write('\n    \\n/ip firewall address-list remove [find where list~\\"^github.*\\"];\\r\\')
+    writer.write('\n    \\n/ipv6 firewall address-list remove [find where list~\\"^github.*\\"];\\r\\')
+
+    writer.write('\n    \\n:log info \\"Import newest GitHub IPs\\";\\r\\')
+    for list in lists:
+        writer.write('\n    \\n/import file-name=' + list + '.rsc;\\r\\')
+
 
     writer.write('\"')
     writer.close()
