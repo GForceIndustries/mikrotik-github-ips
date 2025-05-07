@@ -49,4 +49,4 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
     \n/import file-name=github-codespaces-ips-ipv4.rsc;\r\
     \n/import file-name=github-dependabot-ips-ipv4.rsc;\r\
     \n/import file-name=github-copilot-ips-ipv4.rsc;\r\
-    \n/import file-name=github-copilot-ips-ipv6.rsc;"
+    \n/import file-name=github-copilot-ips-ipv6.rsc;\r\"
