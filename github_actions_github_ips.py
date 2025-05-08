@@ -18,8 +18,6 @@ githubIps = json.loads(requests.get(githubIpURL).content)
 addressLists = []
 
 def generateRefresherRsc(lists):
-    print(lists)
-
     writer = open("github-ips-refresher.rsc", "w")
     writer.write('# Generated on ' + today)
 
