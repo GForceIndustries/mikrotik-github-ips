@@ -31,7 +31,6 @@ jobs:
           git rm github-*-ipv4.rsc
           git rm github-*-ipv6.rsc
           git status
-          git commit -m "Removed existing IP list files"
 
       - name: Execute github_actions_github_ips.py Script
         run: python github_actions_github_ips.py
