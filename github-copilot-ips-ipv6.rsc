@@ -1,4 +1,4 @@
-# Generated on Sun Jul 20 12:28:27 2025 UTC
+# Generated on Sun Jul 20 13:37:21 2025 UTC
 /ipv6 firewall address-list
 add list=github-copilot-ips-ipv6 address=2a0a:a440::/29
 add list=github-copilot-ips-ipv6 address=2606:50c0::/32
