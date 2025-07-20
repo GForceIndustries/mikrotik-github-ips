@@ -28,8 +28,8 @@ jobs:
         run: |
           git config --local user.email "noreply@github.actions.bot"
           git config --local user.name "GitHub Actions"
-          git rm github-*-ipv4.rsc
-          git rm github-*-ipv6.rsc
+          find . -name 'github-*-ipv4.rsc' -exec git rm {} \;
+          find . -name 'github-*-ipv6.rsc' -exec git rm {} \;
           git status
 
       - name: Execute github_actions_github_ips.py Script
