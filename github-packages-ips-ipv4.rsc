@@ -1,0 +1,26 @@
+# Generated on Tue Jul 22 05:41:08 2025 UTC
+/ip firewall address-list
+add list=github-packages-ips-ipv4 address=140.82.121.33/32
+add list=github-packages-ips-ipv4 address=140.82.121.34/32
+add list=github-packages-ips-ipv4 address=140.82.113.33/32
+add list=github-packages-ips-ipv4 address=140.82.113.34/32
+add list=github-packages-ips-ipv4 address=140.82.112.33/32
+add list=github-packages-ips-ipv4 address=140.82.112.34/32
+add list=github-packages-ips-ipv4 address=140.82.114.33/32
+add list=github-packages-ips-ipv4 address=140.82.114.34/32
+add list=github-packages-ips-ipv4 address=192.30.255.164/31
+add list=github-packages-ips-ipv4 address=20.201.28.144/32
+add list=github-packages-ips-ipv4 address=20.205.243.164/32
+add list=github-packages-ips-ipv4 address=20.87.245.1/32
+add list=github-packages-ips-ipv4 address=4.237.22.32/32
+add list=github-packages-ips-ipv4 address=20.207.73.86/32
+add list=github-packages-ips-ipv4 address=20.27.177.117/32
+add list=github-packages-ips-ipv4 address=20.200.245.241/32
+add list=github-packages-ips-ipv4 address=20.175.192.150/32
+add list=github-packages-ips-ipv4 address=20.233.83.147/32
+add list=github-packages-ips-ipv4 address=20.29.134.18/32
+add list=github-packages-ips-ipv4 address=20.199.39.231/32
+add list=github-packages-ips-ipv4 address=20.217.135.1/32
+add list=github-packages-ips-ipv4 address=4.225.11.196/32
+add list=github-packages-ips-ipv4 address=4.208.26.196/32
+add list=github-packages-ips-ipv4 address=20.26.156.211/32
