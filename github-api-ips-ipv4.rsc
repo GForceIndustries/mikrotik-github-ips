@@ -1,4 +1,4 @@
-# Generated on Thu Aug 14 05:38:41 2025 UTC
+# Generated on Fri Aug 15 05:38:36 2025 UTC
 /ip firewall address-list
 add list=github-api-ips-ipv4 address=192.30.252.0/22
 add list=github-api-ips-ipv4 address=185.199.108.0/22
