@@ -1,4 +1,4 @@
-# Generated on Fri Aug 22 05:36:55 2025 UTC
+# Generated on Sat Aug 23 05:35:46 2025 UTC
 /ip firewall address-list
 add list=github-dependabot-ips-ipv4 address=18.213.123.130/32
 add list=github-dependabot-ips-ipv4 address=3.217.79.163/32
