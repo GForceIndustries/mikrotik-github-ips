@@ -1,4 +1,4 @@
-# Generated on Wed Aug 27 05:36:35 2025 UTC
+# Generated on Thu Aug 28 05:36:21 2025 UTC
 /ipv6 firewall address-list
 add list=github-actions-ips-ipv6 address=2602:fd5e:1::/63
 add list=github-actions-ips-ipv6 address=2602:fd5e:1:2::/64
