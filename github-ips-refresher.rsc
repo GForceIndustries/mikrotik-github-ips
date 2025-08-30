@@ -1,4 +1,4 @@
-# Generated on Fri Aug 29 05:35:56 2025 UTC
+# Generated on Sat Aug 30 05:35:00 2025 UTC
 file remove [find name~"^github.*ipv..rsc"]
 /system script
 remove [find name="github-ips-refresher"]
@@ -21,7 +21,6 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-actions-ips-ipv6.rsc\" mode=https dst-path=github-actions-ips-ipv6.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-actions_macos-ips-ipv4.rsc\" mode=https dst-path=github-actions_macos-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-codespaces-ips-ipv4.rsc\" mode=https dst-path=github-codespaces-ips-ipv4.rsc;\r\
-    \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-dependabot-ips-ipv4.rsc\" mode=https dst-path=github-dependabot-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-copilot-ips-ipv4.rsc\" mode=https dst-path=github-copilot-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-copilot-ips-ipv6.rsc\" mode=https dst-path=github-copilot-ips-ipv6.rsc;\r\
     \n\r\
@@ -47,6 +46,5 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
     \n/import file-name=github-actions-ips-ipv6.rsc;\r\
     \n/import file-name=github-actions_macos-ips-ipv4.rsc;\r\
     \n/import file-name=github-codespaces-ips-ipv4.rsc;\r\
-    \n/import file-name=github-dependabot-ips-ipv4.rsc;\r\
     \n/import file-name=github-copilot-ips-ipv4.rsc;\r\
     \n/import file-name=github-copilot-ips-ipv6.rsc;"
