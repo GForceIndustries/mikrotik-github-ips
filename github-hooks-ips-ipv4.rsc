@@ -1,4 +1,4 @@
-# Generated on Fri Sep  5 05:35:29 2025 UTC
+# Generated on Sat Sep  6 05:35:05 2025 UTC
 /ip firewall address-list
 add list=github-hooks-ips-ipv4 address=192.30.252.0/22
 add list=github-hooks-ips-ipv4 address=185.199.108.0/22
