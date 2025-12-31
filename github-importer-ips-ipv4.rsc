@@ -1,4 +1,4 @@
-# Generated on Tue Dec 30 05:40:01 2025 UTC
+# Generated on Wed Dec 31 05:40:32 2025 UTC
 /ip firewall address-list
 add list=github-importer-ips-ipv4 address=52.23.85.212/32
 add list=github-importer-ips-ipv4 address=52.0.228.224/32
