@@ -1,4 +1,4 @@
-# Generated on Thu Jan 29 05:47:26 2026 UTC
+# Generated on Fri Jan 30 05:47:49 2026 UTC
 /ip firewall address-list
 add list=github-actions-ips-ipv4 address=4.148.0.0/16
 add list=github-actions-ips-ipv4 address=4.149.0.0/18
