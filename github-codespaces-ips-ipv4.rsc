@@ -1,4 +1,4 @@
-# Generated on Thu Mar  5 05:47:53 2026 UTC
+# Generated on Fri Mar  6 05:47:31 2026 UTC
 /ip firewall address-list
 add list=github-codespaces-ips-ipv4 address=20.42.11.16/28
 add list=github-codespaces-ips-ipv4 address=172.210.54.224/28
@@ -185,3 +185,9 @@ add list=github-codespaces-ips-ipv4 address=4.196.181.192/28
 add list=github-codespaces-ips-ipv4 address=4.196.181.112/28
 add list=github-codespaces-ips-ipv4 address=4.196.180.176/28
 add list=github-codespaces-ips-ipv4 address=4.197.69.64/28
+add list=github-codespaces-ips-ipv4 address=20.63.210.192/28
+add list=github-codespaces-ips-ipv4 address=104.46.239.0/28
+add list=github-codespaces-ips-ipv4 address=138.91.25.112/28
+add list=github-codespaces-ips-ipv4 address=20.63.212.48/28
+add list=github-codespaces-ips-ipv4 address=20.27.101.128/28
+add list=github-codespaces-ips-ipv4 address=20.63.217.192/28
