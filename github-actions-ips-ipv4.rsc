@@ -1,4 +1,4 @@
-# Generated on Tue Mar 24 05:50:39 2026 UTC
+# Generated on Wed Mar 25 05:51:29 2026 UTC
 /ip firewall address-list
 add list=github-actions-ips-ipv4 address=4.148.0.0/16
 add list=github-actions-ips-ipv4 address=4.149.0.0/18
@@ -829,6 +829,7 @@ add list=github-actions-ips-ipv4 address=20.143.126.0/23
 add list=github-actions-ips-ipv4 address=20.143.136.0/23
 add list=github-actions-ips-ipv4 address=20.143.146.0/23
 add list=github-actions-ips-ipv4 address=20.143.164.0/23
+add list=github-actions-ips-ipv4 address=20.143.170.0/23
 add list=github-actions-ips-ipv4 address=20.150.8.0/23
 add list=github-actions-ips-ipv4 address=20.150.17.0/25
 add list=github-actions-ips-ipv4 address=20.150.20.128/25
@@ -1173,6 +1174,7 @@ add list=github-actions-ips-ipv4 address=20.201.162.0/23
 add list=github-actions-ips-ipv4 address=20.201.165.0/24
 add list=github-actions-ips-ipv4 address=20.201.178.0/24
 add list=github-actions-ips-ipv4 address=20.201.179.0/24
+add list=github-actions-ips-ipv4 address=20.201.190.0/24
 add list=github-actions-ips-ipv4 address=20.201.192.0/21
 add list=github-actions-ips-ipv4 address=20.201.200.0/22
 add list=github-actions-ips-ipv4 address=20.201.204.0/24
@@ -2275,11 +2277,7 @@ add list=github-actions-ips-ipv4 address=40.120.167.150/31
 add list=github-actions-ips-ipv4 address=40.120.167.152/29
 add list=github-actions-ips-ipv4 address=40.120.167.160/27
 add list=github-actions-ips-ipv4 address=40.120.167.192/26
-add list=github-actions-ips-ipv4 address=40.120.188.0/23
-add list=github-actions-ips-ipv4 address=40.120.190.0/24
-add list=github-actions-ips-ipv4 address=40.120.191.0/25
-add list=github-actions-ips-ipv4 address=40.120.191.128/26
-add list=github-actions-ips-ipv4 address=40.120.191.192/27
+add list=github-actions-ips-ipv4 address=40.120.188.0/22
 add list=github-actions-ips-ipv4 address=40.121.0.0/16
 add list=github-actions-ips-ipv4 address=40.122.16.0/20
 add list=github-actions-ips-ipv4 address=40.122.32.0/19
@@ -3909,18 +3907,15 @@ add list=github-actions-ips-ipv4 address=57.157.29.192/27
 add list=github-actions-ips-ipv4 address=57.157.29.224/29
 add list=github-actions-ips-ipv4 address=57.157.29.232/31
 add list=github-actions-ips-ipv4 address=57.157.32.0/23
-add list=github-actions-ips-ipv4 address=57.157.34.0/28
-add list=github-actions-ips-ipv4 address=57.157.34.16/29
-add list=github-actions-ips-ipv4 address=57.157.34.24/31
+add list=github-actions-ips-ipv4 address=57.157.34.0/26
+add list=github-actions-ips-ipv4 address=57.157.34.64/29
 add list=github-actions-ips-ipv4 address=57.157.44.0/25
 add list=github-actions-ips-ipv4 address=57.157.44.128/27
 add list=github-actions-ips-ipv4 address=57.157.44.160/28
 add list=github-actions-ips-ipv4 address=57.157.44.180/30
 add list=github-actions-ips-ipv4 address=57.157.44.184/30
 add list=github-actions-ips-ipv4 address=57.157.44.188/31
-add list=github-actions-ips-ipv4 address=57.157.44.192/29
-add list=github-actions-ips-ipv4 address=57.157.44.200/30
-add list=github-actions-ips-ipv4 address=57.157.44.204/31
+add list=github-actions-ips-ipv4 address=57.157.44.192/28
 add list=github-actions-ips-ipv4 address=57.157.48.0/27
 add list=github-actions-ips-ipv4 address=57.157.48.32/29
 add list=github-actions-ips-ipv4 address=57.157.48.40/30
@@ -3946,17 +3941,18 @@ add list=github-actions-ips-ipv4 address=57.157.49.86/31
 add list=github-actions-ips-ipv4 address=57.157.49.88/29
 add list=github-actions-ips-ipv4 address=57.157.49.96/27
 add list=github-actions-ips-ipv4 address=57.157.49.128/27
-add list=github-actions-ips-ipv4 address=57.157.49.160/30
-add list=github-actions-ips-ipv4 address=57.157.49.164/31
+add list=github-actions-ips-ipv4 address=57.157.49.160/28
+add list=github-actions-ips-ipv4 address=57.157.49.176/30
 add list=github-actions-ips-ipv4 address=57.157.56.0/26
 add list=github-actions-ips-ipv4 address=57.157.56.64/27
 add list=github-actions-ips-ipv4 address=57.157.56.96/30
 add list=github-actions-ips-ipv4 address=57.157.56.100/31
+add list=github-actions-ips-ipv4 address=57.157.64.0/28
 add list=github-actions-ips-ipv4 address=57.157.72.0/25
 add list=github-actions-ips-ipv4 address=57.157.72.128/27
-add list=github-actions-ips-ipv4 address=57.157.72.160/31
+add list=github-actions-ips-ipv4 address=57.157.72.160/30
 add list=github-actions-ips-ipv4 address=57.157.76.0/28
-add list=github-actions-ips-ipv4 address=57.157.76.16/31
+add list=github-actions-ips-ipv4 address=57.157.76.16/30
 add list=github-actions-ips-ipv4 address=57.157.80.0/25
 add list=github-actions-ips-ipv4 address=57.157.80.128/28
 add list=github-actions-ips-ipv4 address=57.157.80.144/29
@@ -3965,6 +3961,7 @@ add list=github-actions-ips-ipv4 address=57.157.128.0/24
 add list=github-actions-ips-ipv4 address=57.157.129.0/28
 add list=github-actions-ips-ipv4 address=57.157.129.16/30
 add list=github-actions-ips-ipv4 address=57.162.0.0/17
+add list=github-actions-ips-ipv4 address=57.162.128.0/17
 add list=github-actions-ips-ipv4 address=64.4.8.0/24
 add list=github-actions-ips-ipv4 address=64.4.54.0/24
 add list=github-actions-ips-ipv4 address=64.236.0.0/17
@@ -4388,6 +4385,7 @@ add list=github-actions-ips-ipv4 address=135.130.244.0/24
 add list=github-actions-ips-ipv4 address=135.130.245.0/25
 add list=github-actions-ips-ipv4 address=135.130.245.128/25
 add list=github-actions-ips-ipv4 address=135.130.246.0/24
+add list=github-actions-ips-ipv4 address=135.130.253.0/24
 add list=github-actions-ips-ipv4 address=135.222.0.0/17
 add list=github-actions-ips-ipv4 address=135.222.128.0/18
 add list=github-actions-ips-ipv4 address=135.222.192.0/18

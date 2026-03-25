@@ -1,4 +1,4 @@
-# Generated on Tue Mar 24 05:50:39 2026 UTC
+# Generated on Wed Mar 25 05:51:29 2026 UTC
 /ipv6 firewall address-list
 add list=github-web-ips-ipv6 address=2a0a:a440::/29
 add list=github-web-ips-ipv6 address=2606:50c0::/32
