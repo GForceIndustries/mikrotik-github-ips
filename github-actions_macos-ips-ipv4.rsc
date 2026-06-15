@@ -1,4 +1,4 @@
-# Generated on Sun Jun 14 07:03:52 2026 UTC
+# Generated on Mon Jun 15 07:18:17 2026 UTC
 /ip firewall address-list
 add list=github-actions_macos-ips-ipv4 address=13.105.117.0/24
 add list=github-actions_macos-ips-ipv4 address=13.105.220.0/25
