@@ -1,4 +1,4 @@
-# Generated on Tue Jun 16 07:19:01 2026 UTC
+# Generated on Wed Jun 17 07:16:44 2026 UTC
 /ipv6 firewall address-list
 add list=github-actions-ips-ipv6 address=2602:fd5e:1::/63
 add list=github-actions-ips-ipv6 address=2602:fd5e:1:2::/64
@@ -469,17 +469,15 @@ add list=github-actions-ips-ipv6 address=2603:1030:401:263::/64
 add list=github-actions-ips-ipv6 address=2603:1030:401:264::/62
 add list=github-actions-ips-ipv6 address=2603:1030:401:268::/61
 add list=github-actions-ips-ipv6 address=2603:1030:401:270::/62
-add list=github-actions-ips-ipv6 address=2603:1030:401:274::/64
+add list=github-actions-ips-ipv6 address=2603:1030:401:274::/63
 add list=github-actions-ips-ipv6 address=2603:1030:401:27a::/63
 add list=github-actions-ips-ipv6 address=2603:1030:401:27c::/62
 add list=github-actions-ips-ipv6 address=2603:1030:401:280::/59
 add list=github-actions-ips-ipv6 address=2603:1030:401:2a0::/61
 add list=github-actions-ips-ipv6 address=2603:1030:401:2a8::/63
 add list=github-actions-ips-ipv6 address=2603:1030:401:2ab::/64
-add list=github-actions-ips-ipv6 address=2603:1030:401:2ac::/63
-add list=github-actions-ips-ipv6 address=2603:1030:401:2af::/64
-add list=github-actions-ips-ipv6 address=2603:1030:401:2b0::/63
-add list=github-actions-ips-ipv6 address=2603:1030:401:2b3::/64
+add list=github-actions-ips-ipv6 address=2603:1030:401:2ac::/62
+add list=github-actions-ips-ipv6 address=2603:1030:401:2b0::/62
 add list=github-actions-ips-ipv6 address=2603:1030:401:2b4::/63
 add list=github-actions-ips-ipv6 address=2603:1030:401:2b7::/64
 add list=github-actions-ips-ipv6 address=2603:1030:401:2b8::/62
