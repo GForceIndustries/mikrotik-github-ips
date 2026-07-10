@@ -1,4 +1,4 @@
-# Generated on Thu Jul  9 06:47:00 2026 UTC
+# Generated on Fri Jul 10 06:47:14 2026 UTC
 /ipv6 firewall address-list
 add list=github-hooks-ips-ipv6 address=2a0a:a440::/29
 add list=github-hooks-ips-ipv6 address=2606:50c0::/32
