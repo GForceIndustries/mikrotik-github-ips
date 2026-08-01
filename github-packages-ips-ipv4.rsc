@@ -1,4 +1,4 @@
-# Generated on Fri Jul 31 06:30:47 2026 UTC
+# Generated on Sat Aug  1 06:19:35 2026 UTC
 /ip firewall address-list
 add list=github-packages-ips-ipv4 address=140.82.121.33/32
 add list=github-packages-ips-ipv4 address=140.82.121.34/32
@@ -25,3 +25,7 @@ add list=github-packages-ips-ipv4 address=20.217.135.1/32
 add list=github-packages-ips-ipv4 address=4.225.11.196/32
 add list=github-packages-ips-ipv4 address=4.208.26.196/32
 add list=github-packages-ips-ipv4 address=20.26.156.211/32
+add list=github-packages-ips-ipv4 address=172.182.252.136/32
+add list=github-packages-ips-ipv4 address=4.249.131.167/32
+add list=github-packages-ips-ipv4 address=48.202.248.34/32
+add list=github-packages-ips-ipv4 address=48.204.201.9/32
