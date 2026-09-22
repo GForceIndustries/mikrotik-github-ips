@@ -1,4 +1,4 @@
-# Generated on Mon Sep 21 10:59:04 2026 UTC
+# Generated on Tue Sep 22 10:13:25 2026 UTC
 /ipv6 firewall address-list
 add list=github-actions-ips-ipv6 address=2602:fd5e:1::/63
 add list=github-actions-ips-ipv6 address=2602:fd5e:1:2::/64
@@ -57,6 +57,7 @@ add list=github-actions-ips-ipv6 address=2603:1030:9:b8::/63
 add list=github-actions-ips-ipv6 address=2603:1030:9:bb::/64
 add list=github-actions-ips-ipv6 address=2603:1030:9:bc::/62
 add list=github-actions-ips-ipv6 address=2603:1030:9:c0::/60
+add list=github-actions-ips-ipv6 address=2603:1030:9:d2::/64
 add list=github-actions-ips-ipv6 address=2603:1030:9:d6::/63
 add list=github-actions-ips-ipv6 address=2603:1030:9:d8::/61
 add list=github-actions-ips-ipv6 address=2603:1030:9:e0::/59
@@ -285,10 +286,7 @@ add list=github-actions-ips-ipv6 address=2603:1030:401:50::/61
 add list=github-actions-ips-ipv6 address=2603:1030:401:58::/64
 add list=github-actions-ips-ipv6 address=2603:1030:401:5a::/63
 add list=github-actions-ips-ipv6 address=2603:1030:401:5c::/62
-add list=github-actions-ips-ipv6 address=2603:1030:401:60::/62
-add list=github-actions-ips-ipv6 address=2603:1030:401:64::/64
-add list=github-actions-ips-ipv6 address=2603:1030:401:6b::/64
-add list=github-actions-ips-ipv6 address=2603:1030:401:6c::/62
+add list=github-actions-ips-ipv6 address=2603:1030:401:60::/60
 add list=github-actions-ips-ipv6 address=2603:1030:401:70::/62
 add list=github-actions-ips-ipv6 address=2603:1030:401:75::/64
 add list=github-actions-ips-ipv6 address=2603:1030:401:76::/63
@@ -457,6 +455,7 @@ add list=github-actions-ips-ipv6 address=2603:1030:401:439::/64
 add list=github-actions-ips-ipv6 address=2603:1030:401:43a::/63
 add list=github-actions-ips-ipv6 address=2603:1030:401:43c::/63
 add list=github-actions-ips-ipv6 address=2603:1030:401:43e::/64
+add list=github-actions-ips-ipv6 address=2603:1030:401:440::/62
 add list=github-actions-ips-ipv6 address=2603:1030:401:44b::/64
 add list=github-actions-ips-ipv6 address=2603:1030:401:44c::/62
 add list=github-actions-ips-ipv6 address=2603:1030:401:45c::/62

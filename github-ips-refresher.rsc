@@ -1,4 +1,4 @@
-# Generated on Mon Sep 21 10:59:04 2026 UTC
+# Generated on Tue Sep 22 10:13:25 2026 UTC
 file remove [find name~"^github.*ipv..rsc"]
 /system script
 remove [find name="github-ips-refresher"]
