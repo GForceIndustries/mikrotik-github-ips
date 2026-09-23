@@ -1,4 +1,4 @@
-# Generated on Tue Sep 22 10:13:25 2026 UTC
+# Generated on Wed Sep 23 10:13:07 2026 UTC
 /ip firewall address-list
 add list=github-actions-ips-ipv4 address=4.148.0.0/16
 add list=github-actions-ips-ipv4 address=4.149.0.0/18
@@ -5797,3 +5797,23 @@ add list=github-actions-ips-ipv4 address=216.220.208.0/24
 add list=github-actions-ips-ipv4 address=216.220.210.0/24
 add list=github-actions-ips-ipv4 address=216.220.211.0/24
 add list=github-actions-ips-ipv4 address=216.220.212.0/24
+add list=github-actions-ips-ipv4 address=3.219.87.128/32
+add list=github-actions-ips-ipv4 address=18.214.123.177/32
+add list=github-actions-ips-ipv4 address=18.233.87.154/32
+add list=github-actions-ips-ipv4 address=34.202.115.28/32
+add list=github-actions-ips-ipv4 address=34.202.143.207/32
+add list=github-actions-ips-ipv4 address=34.223.158.89/32
+add list=github-actions-ips-ipv4 address=34.237.233.57/32
+add list=github-actions-ips-ipv4 address=35.174.28.24/32
+add list=github-actions-ips-ipv4 address=44.228.147.113/32
+add list=github-actions-ips-ipv4 address=50.16.210.73/32
+add list=github-actions-ips-ipv4 address=52.7.11.124/32
+add list=github-actions-ips-ipv4 address=52.35.47.185/32
+add list=github-actions-ips-ipv4 address=52.40.23.199/32
+add list=github-actions-ips-ipv4 address=52.200.10.122/32
+add list=github-actions-ips-ipv4 address=54.211.170.155/32
+add list=github-actions-ips-ipv4 address=54.235.15.98/32
+add list=github-actions-ips-ipv4 address=54.245.203.201/32
+add list=github-actions-ips-ipv4 address=98.89.53.239/32
+add list=github-actions-ips-ipv4 address=100.62.132.232/32
+add list=github-actions-ips-ipv4 address=100.62.139.158/32
