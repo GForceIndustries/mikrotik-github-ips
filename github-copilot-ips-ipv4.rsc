@@ -1,4 +1,4 @@
-# Generated on Tue Oct 20 10:18:11 2026 UTC
+# Generated on Wed Oct 21 10:28:17 2026 UTC
 /ip firewall address-list
 add list=github-copilot-ips-ipv4 address=192.30.252.0/22
 add list=github-copilot-ips-ipv4 address=185.199.108.0/22
