@@ -1,4 +1,4 @@
-# Generated on Thu Oct 22 10:28:19 2026 UTC
+# Generated on Fri Oct 23 10:24:19 2026 UTC
 file remove [find name~"^github.*ipv..rsc"]
 /system script
 remove [find name="github-ips-refresher"]
@@ -7,6 +7,7 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-hooks-ips-ipv6.rsc\" mode=https dst-path=github-hooks-ips-ipv6.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-web-ips-ipv4.rsc\" mode=https dst-path=github-web-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-web-ips-ipv6.rsc\" mode=https dst-path=github-web-ips-ipv6.rsc;\r\
+    \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-shared_ingress-ips-ipv4.rsc\" mode=https dst-path=github-shared_ingress-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-api-ips-ipv4.rsc\" mode=https dst-path=github-api-ips-ipv4.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-api-ips-ipv6.rsc\" mode=https dst-path=github-api-ips-ipv6.rsc;\r\
     \n/tool fetch url=\"https://raw.githubusercontent.com/GForceIndustries/mikrotik-github-ips/refs/heads/main/github-git-ips-ipv4.rsc\" mode=https dst-path=github-git-ips-ipv4.rsc;\r\
@@ -32,6 +33,7 @@ add dont-require-permissions=yes name=github-ips-refresher owner=admin policy=ft
     \n/import file-name=github-hooks-ips-ipv6.rsc;\r\
     \n/import file-name=github-web-ips-ipv4.rsc;\r\
     \n/import file-name=github-web-ips-ipv6.rsc;\r\
+    \n/import file-name=github-shared_ingress-ips-ipv4.rsc;\r\
     \n/import file-name=github-api-ips-ipv4.rsc;\r\
     \n/import file-name=github-api-ips-ipv6.rsc;\r\
     \n/import file-name=github-git-ips-ipv4.rsc;\r\
