@@ -1,4 +1,4 @@
-# Generated on Sun Nov  8 12:05:08 2026 UTC
+# Generated on Mon Nov  9 14:12:00 2026 UTC
 /ip firewall address-list
 add list=github-hooks-ips-ipv4 address=9.234.106.48/28
 add list=github-hooks-ips-ipv4 address=9.234.98.160/28
