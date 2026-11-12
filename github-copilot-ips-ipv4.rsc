@@ -1,4 +1,4 @@
-# Generated on Wed Nov 11 12:53:21 2026 UTC
+# Generated on Thu Nov 12 13:55:43 2026 UTC
 /ip firewall address-list
 add list=github-copilot-ips-ipv4 address=192.30.252.0/22
 add list=github-copilot-ips-ipv4 address=185.199.108.0/22
@@ -14,6 +14,9 @@ add list=github-copilot-ips-ipv4 address=20.27.163.208/28
 add list=github-copilot-ips-ipv4 address=20.200.245.249/32
 add list=github-copilot-ips-ipv4 address=20.87.245.9/32
 add list=github-copilot-ips-ipv4 address=20.205.243.169/32
+add list=github-copilot-ips-ipv4 address=20.247.166.64/28
+add list=github-copilot-ips-ipv4 address=20.6.7.16/28
+add list=github-copilot-ips-ipv4 address=57.155.223.240/28
 add list=github-copilot-ips-ipv4 address=20.233.83.153/32
 add list=github-copilot-ips-ipv4 address=4.237.22.41/32
 add list=github-copilot-ips-ipv4 address=4.196.32.112/28
@@ -36,11 +39,19 @@ add list=github-copilot-ips-ipv4 address=52.140.63.241/32
 add list=github-copilot-ips-ipv4 address=52.175.140.176/32
 add list=github-copilot-ips-ipv4 address=4.208.26.201/32
 add list=github-copilot-ips-ipv4 address=4.207.215.240/28
+add list=github-copilot-ips-ipv4 address=4.209.112.0/28
+add list=github-copilot-ips-ipv4 address=4.209.111.112/28
 add list=github-copilot-ips-ipv4 address=4.225.11.192/32
 add list=github-copilot-ips-ipv4 address=172.130.201.80/28
 add list=github-copilot-ips-ipv4 address=4.225.187.240/28
 add list=github-copilot-ips-ipv4 address=172.130.153.16/28
+add list=github-copilot-ips-ipv4 address=172.130.45.112/28
+add list=github-copilot-ips-ipv4 address=4.225.189.240/28
+add list=github-copilot-ips-ipv4 address=172.130.18.192/28
 add list=github-copilot-ips-ipv4 address=20.250.119.64/32
+add list=github-copilot-ips-ipv4 address=74.161.79.192/28
+add list=github-copilot-ips-ipv4 address=4.163.8.144/28
+add list=github-copilot-ips-ipv4 address=20.208.89.80/28
 add list=github-copilot-ips-ipv4 address=20.26.156.217/32
 add list=github-copilot-ips-ipv4 address=20.26.58.32/28
 add list=github-copilot-ips-ipv4 address=20.26.68.64/28
@@ -54,6 +65,7 @@ add list=github-copilot-ips-ipv4 address=172.194.155.208/28
 add list=github-copilot-ips-ipv4 address=48.200.82.112/28
 add list=github-copilot-ips-ipv4 address=48.202.10.80/28
 add list=github-copilot-ips-ipv4 address=172.194.218.192/28
+add list=github-copilot-ips-ipv4 address=172.139.64.112/28
 add list=github-copilot-ips-ipv4 address=172.182.252.128/32
 add list=github-copilot-ips-ipv4 address=4.236.95.112/28
 add list=github-copilot-ips-ipv4 address=20.169.109.160/28
