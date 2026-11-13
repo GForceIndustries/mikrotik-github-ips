@@ -1,4 +1,4 @@
-# Generated on Thu Nov 12 13:55:43 2026 UTC
+# Generated on Fri Nov 13 13:20:25 2026 UTC
 /ip firewall address-list
 add list=github-shared_ingress-ips-ipv4 address=20.207.73.89/32
 add list=github-shared_ingress-ips-ipv4 address=4.187.247.160/28
@@ -54,6 +54,9 @@ add list=github-shared_ingress-ips-ipv4 address=20.26.68.64/28
 add list=github-shared_ingress-ips-ipv4 address=4.159.108.160/28
 add list=github-shared_ingress-ips-ipv4 address=4.234.31.32/28
 add list=github-shared_ingress-ips-ipv4 address=4.159.197.192/28
+add list=github-shared_ingress-ips-ipv4 address=4.234.31.128/28
+add list=github-shared_ingress-ips-ipv4 address=4.158.254.48/28
+add list=github-shared_ingress-ips-ipv4 address=4.234.47.112/28
 add list=github-shared_ingress-ips-ipv4 address=138.91.182.224/32
 add list=github-shared_ingress-ips-ipv4 address=20.29.134.26/32
 add list=github-shared_ingress-ips-ipv4 address=4.149.173.80/28
@@ -62,6 +65,8 @@ add list=github-shared_ingress-ips-ipv4 address=48.200.82.112/28
 add list=github-shared_ingress-ips-ipv4 address=48.202.10.80/28
 add list=github-shared_ingress-ips-ipv4 address=172.194.218.192/28
 add list=github-shared_ingress-ips-ipv4 address=172.139.64.112/28
+add list=github-shared_ingress-ips-ipv4 address=48.202.91.176/28
+add list=github-shared_ingress-ips-ipv4 address=57.166.80.144/28
 add list=github-shared_ingress-ips-ipv4 address=172.182.252.128/32
 add list=github-shared_ingress-ips-ipv4 address=4.236.95.112/28
 add list=github-shared_ingress-ips-ipv4 address=20.169.109.160/28
