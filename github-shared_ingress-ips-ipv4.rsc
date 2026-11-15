@@ -1,4 +1,4 @@
-# Generated on Sat Nov 14 12:24:39 2026 UTC
+# Generated on Sun Nov 15 12:54:28 2026 UTC
 /ip firewall address-list
 add list=github-shared_ingress-ips-ipv4 address=20.207.73.89/32
 add list=github-shared_ingress-ips-ipv4 address=4.187.247.160/28
