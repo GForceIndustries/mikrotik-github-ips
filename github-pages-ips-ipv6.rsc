@@ -1,4 +1,4 @@
-# Generated on Sun Nov 15 12:54:28 2026 UTC
+# Generated on Mon Nov 16 13:54:34 2026 UTC
 /ipv6 firewall address-list
 add list=github-pages-ips-ipv6 address=2606:50c0:8000::153/128
 add list=github-pages-ips-ipv6 address=2606:50c0:8001::153/128
