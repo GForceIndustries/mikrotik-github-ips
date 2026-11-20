@@ -1,4 +1,4 @@
-# Generated on Thu Nov 19 14:37:36 2026 UTC
+# Generated on Fri Nov 20 14:15:34 2026 UTC
 /ip firewall address-list
 add list=github-web-ips-ipv4 address=192.30.252.0/22
 add list=github-web-ips-ipv4 address=185.199.108.0/22
@@ -40,6 +40,7 @@ add list=github-web-ips-ipv4 address=172.194.218.192/28
 add list=github-web-ips-ipv4 address=172.139.64.112/28
 add list=github-web-ips-ipv4 address=48.202.91.176/28
 add list=github-web-ips-ipv4 address=57.166.80.144/28
+add list=github-web-ips-ipv4 address=20.64.190.224/28
 add list=github-web-ips-ipv4 address=20.199.39.232/32
 add list=github-web-ips-ipv4 address=20.217.135.5/32
 add list=github-web-ips-ipv4 address=20.217.135.1/32
@@ -51,6 +52,7 @@ add list=github-web-ips-ipv4 address=172.130.153.16/28
 add list=github-web-ips-ipv4 address=172.130.45.112/28
 add list=github-web-ips-ipv4 address=4.225.189.240/28
 add list=github-web-ips-ipv4 address=172.130.18.192/28
+add list=github-web-ips-ipv4 address=172.130.99.48/28
 add list=github-web-ips-ipv4 address=20.250.119.67/32
 add list=github-web-ips-ipv4 address=74.161.79.192/28
 add list=github-web-ips-ipv4 address=4.163.8.144/28
@@ -60,6 +62,7 @@ add list=github-web-ips-ipv4 address=4.208.26.193/32
 add list=github-web-ips-ipv4 address=4.207.215.240/28
 add list=github-web-ips-ipv4 address=4.209.112.0/28
 add list=github-web-ips-ipv4 address=4.209.111.112/28
+add list=github-web-ips-ipv4 address=74.158.248.0/28
 add list=github-web-ips-ipv4 address=20.26.156.215/32
 add list=github-web-ips-ipv4 address=20.26.156.213/32
 add list=github-web-ips-ipv4 address=20.26.58.32/28
@@ -70,6 +73,7 @@ add list=github-web-ips-ipv4 address=4.159.197.192/28
 add list=github-web-ips-ipv4 address=4.234.31.128/28
 add list=github-web-ips-ipv4 address=4.158.254.48/28
 add list=github-web-ips-ipv4 address=4.234.47.112/28
+add list=github-web-ips-ipv4 address=20.254.76.112/28
 add list=github-web-ips-ipv4 address=172.182.252.133/32
 add list=github-web-ips-ipv4 address=172.182.252.130/32
 add list=github-web-ips-ipv4 address=4.236.95.112/28
